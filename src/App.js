@@ -28,7 +28,7 @@ function App() {
         <div class="card-header">Your Todo's</div>
         <div class="card-body">
          <TodoTable todos={todos}/>
-         <button className='btn btn-primary' onClick={()=>{console.log(addTodo)}}>
+         <button className='btn btn-primary' onClick={()=>{console.log('test')}}>
           Add new todo</button>
         </div>
       </div>
